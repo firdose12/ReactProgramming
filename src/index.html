@@ -1,0 +1,129 @@
+ 
+<!-- React Session 1 
+
+VERSION - 1
+just type html : 5 to get the basic html boiler plate 
+try for hello world 
+prnt hello world using javascript instead of html , you have to use script tab at the end of the file why ? is your homework
+what is CDN in React ?
+open CDN React in your browser
+you ll see 2 scripts copy and paste at the end of the file there you go your react app is ready:) -> https://reactjs.org/docs/cdn-links.html
+like wise we get superpowers from web Api , we can get some super power to run the react and it gives 
+api / file from server
+
+VERSION - 2
+there will be 2 scripts , why 2 scripts ? one is for development version of react and the other links are for productions files
+but in one script tab also you can see 2 files what are those files ? 
+   those are just a javascript file as simple as that 
+   first file ->  this is for react , core react , this is a shared file across web , android , common everywhere
+   second file -> this is for react dom  , rendering from web pages  , this changes based on the devices you use.
+   but why 2 ? we can have both in 1 na ? because , facebook community choose to seperate a core 
+   react and helper functions 
+   so files are just seperated for the usability purpose , first file will be same everywhere 
+   second file behave according to the device you use.
+
+   You can see in the network tab these api's will be called , like we have a super power keyword called "window" 
+   we have superpower called "React" here.
+
+   go to console and type react , reactdom
+
+Question : What is the relationship between javascript an react ? 
+
+    react is nothing but just a peace of javascript code nothing else , okay lets take an example and explain you 
+    creare a file called "ODD.JS" and import it into this file , in the odd.js just check whethe the number is odd /not 
+
+    and you can say odd.js is a library :) , thats it as simple as that react is also a library
+    with some javascript code thats it.
+
+    now odd function is available for us , just go to console and type odd() its available 
+
+
+    VERSION - 3 
+    create a hello world using react 
+    Question : what is the {} in the create element of react ?
+
+    Before that steps here , 
+    1. create element using "React" keyword , once the element is created you have to put that in some div on the browser
+    2. you have to use "ReactDom" to put that element on the web browser
+    3. here the div which we are using is id="root"
+    4. what is {} is if i want to give id to the h1 tag you can do that by giving 
+    id to the h2 tag you can do that by giving id to the h2 tag you
+    const heading = React.createElement("hi",
+         {
+        id: "h1"
+    },"Hello World"); you can also use null if you dont want to use it
+
+You know what ReactDom will again be internally using document.createElement ;) 
+
+React 18 introduced React.createRoot() 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Session 1</title>
+</head>
+<body>
+    <!-- VERSION - 1 ->  here we are creating a empty divs so that we can play with div in the down using script tag 
+    <div id="app">
+        <h1>Hello world</h1>
+    </div>
+    <div id="usingScripttag"></div>    
+   
+    <div id="usingScripttag1"></div>
+    <script>
+        const root = document.getElementById("usingScripttag");
+        const heading = document.createElement("h1");
+        heading.innerText = "Hello world";
+        root.appendChild(heading);
+    
+        const root1 = document.getElementById("usingScripttag1");
+        const heading2 = document.createElement("h1");
+        heading2.innerText = "Hello world1";
+        root1.appendChild(heading2);
+    
+    </script> -->
+
+
+
+    <!-- VERSION - 2 here we bring the CDN links into picture -->
+
+  <div id="root"></div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  
+  <!-- VERSION - 3 CREATE HELLOWORLD USING REACT -->
+
+  <script>
+    const heading = React.createElement("h1",{},"Hello World"); // this just created a object for us
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
+
+  </script>
+  
+  <!-- <script src="odd.js"></script>  , created this to illustrate the example of difference between javasctipt and react-->
+</body>
+</html>
+
+
+<!-- HOMEWORK
+
+    1. Why React is known as React ? 
+            Answer :  React was developed for applications ( facebook ) that have constantly changing data
+                      Since React is a front-end framework or the "View" in MVC,this means that as the 
+                      user clicks around and change the app's data, the view should "react" or change
+                      with those user events.
+    2. 
+
+
+
+
+-->
+
+
+
