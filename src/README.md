@@ -34,7 +34,7 @@ Season 2 :
 
 -> other things also came up while installing what are those ? those are   dependencies over dependencies which has other dependencies  
 
--> learn more about web-pack which takes care of minifying your app , remove spaces etccc..., read about web-pack and wable
+-> learn more about web-pack which takes care of minifying your app , remove spaces etccc..., read about web-pack and babel
 
 so we have so many bundlers , what bundlers do for us is pack the application , if you want to do some code to be work in abother browser also then that comes blunder , in this turorial we will be using "PARCEL" bundler
 
@@ -134,7 +134,7 @@ HOMEWORK :
      4. know about pollyfill. 
      5. what is robots.txt , What is manifest.json
             in the index.html of react app , you have <noscript> tag , know what it is ? 
-    6. WEB-PACK , WABLE
+    6. WEB-PACK , babel
     7.NPX
 
 

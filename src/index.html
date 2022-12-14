@@ -93,7 +93,7 @@ React 18 introduced React.createRoot()
     <!-- VERSION - 2 here we bring the CDN links into picture -->
 
   <div id="root"></div>
-
+  <div id="practice"></div>
   <!-- 
   WE DONT NEED THIS HERE NOW BECAUSE WE HAVE INSTALLED REACT USING NPM , NOW IN APP.JS YOU LL SEE ERROR SO GO THERE AND IMPORT.    
  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
@@ -101,14 +101,15 @@ React 18 introduced React.createRoot()
   
   <!-- VERSION - 3 CREATE HELLOWORLD USING REACT -->
 
-  <script>
+  <!-- <script>
     const heading = React.createElement("h1",{},"Hello World"); // this just created a object for us
     const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(heading);
 
-  </script>
+  </script> -->
 
   <script type="module" src="App.js"></script>
+  <script type="module" src="Practice.js"></script>
   
   <!-- <script src="odd.js"></script>  , created this to illustrate the example of difference between javasctipt and react-->
 </body>
@@ -117,7 +118,7 @@ React 18 introduced React.createRoot()
 
 <!-- HOMEWORK
 
-    1. Why React is known as React ? 
+    1. Why React is known as React ?  
             Answer :  React was developed for applications ( facebook ) that have constantly changing data
                       Since React is a front-end framework or the "View" in MVC,this means that as the 
                       user clicks around and change the app's data, the view should "react" or change
