@@ -2,7 +2,7 @@
 
 INSTEAD OF YOUR PASSWORD YOU SHOULD GIVE THIS TOKEN 
 
-token : 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
+token : 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
 
 FOR REFERENCE SEE THIS : https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
 
@@ -135,8 +135,23 @@ HOMEWORK :
      5. what is robots.txt , What is manifest.json
             in the index.html of react app , you have <noscript> tag , know what it is ? 
     6. WEB-PACK , WABLE
+    7.NPX
 
 
 ANSWERS: 
+
+-> NPX : 
+    NPX: The npx stands for Node Package Execute and it comes with the npm, when you installed npm above 5.2.0 version then automatically npx will installed. It is an npm package runner that can execute any package that you want from the npm registry without even installing that package.
+-> Difference between dependencies and devDependencies : 
+    A dependency is a library that a project needs to function effectively. DevDependencies are the packages a developer needs during development.
+-> <noScript> : 
+    The <noscript> tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.
+    The <noscript> element can be used in both <head> and <body>. When used inside <head>, the <noscript> element could only contain <link>, <style>, and <meta> elements.
+-> Why Not to Modify Pacakage-lock.json : 
+  It is a generated file and is not designed to be manually edited. Its purpose is to track the entire tree of dependencies (including dependencies of dependencies) and the exact version of each dependency. You should commit package-lock. json to your code repository
+-> Manifest.json : 
+    Web app manifest files provide the capability to change how an installed application will look like on the user's desktop or mobile device. By modifying properties in the JSON file, you can modify a number of details in your application, including its: Name , Description etc..,
+    If you're building a site that you think does not need to be installed on a device, remove the manifest and the <link> element in the HTML file that points to it.
+    If you would like users to install the application on their device, modify the manifest file (or create one if you are not using CRA) with any properties that you like. The MDN documentation explains all the required and optional attributes.
 
       
