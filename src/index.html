@@ -94,8 +94,10 @@ React 18 introduced React.createRoot()
 
   <div id="root"></div>
 
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- 
+  WE DONT NEED THIS HERE NOW BECAUSE WE HAVE INSTALLED REACT USING NPM , NOW IN APP.JS YOU LL SEE ERROR SO GO THERE AND IMPORT.    
+ <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
   
   <!-- VERSION - 3 CREATE HELLOWORLD USING REACT -->
 
@@ -105,6 +107,8 @@ React 18 introduced React.createRoot()
     root.render(heading);
 
   </script>
+
+  <script type="module" src="App.js"></script>
   
   <!-- <script src="odd.js"></script>  , created this to illustrate the example of difference between javasctipt and react-->
 </body>
