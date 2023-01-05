@@ -26,3 +26,5 @@ import , that is correct , javascript file cannot have import , so to specify th
 type="module" in the script tag
 
 */ 
+
+

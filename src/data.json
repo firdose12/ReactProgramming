@@ -1,0 +1,24 @@
+[
+    {
+      "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/nfieyqgxk1omknxfbluj",
+      "name": "Biriyani By Kilo",
+      "Cusine": "Hydrebadi",
+      "starts": 4,
+      "id":2
+    },
+    {
+      "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bkrl3ckz1tfmc7y4aoap",
+      "name": "Truffles",
+      "Cusine": "Banglore",
+      "starts": 5,
+      "id":3
+    },
+    {
+      "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lvxyt7qdchtmzh8telc2",
+      "name": "Beijing Bites",
+      "Cusine": "American",
+      "starts": 3,
+      "id":4
+    }
+  ]
+
