@@ -8,11 +8,6 @@ FOR REFERENCE SEE THIS : https://stackoverflow.com/questions/68775869/message-su
 
 */
 
-
-
-
-
-
 Season 1 : 
 
 Season 2 : 
@@ -23,7 +18,7 @@ Season 2 :
 
 -> simply give "npm init -y" , it will by default create a package.json with some dependencies
     npm keeps track of everything
--> if you see package.json you can see a basic json structure, earlier we use to indect the stuff using injection in the html using script but lets inject that in package.json
+-> if you see package.json you can see a basic json structure, earlier we use to inject the stuff using injection in the html using script but lets inject that in package.json
 
 -> instead of injecting the react in the html , let get that in   package.json , 
     "npm i react react-dom" , what happened ? we got package-lock.json and node modules etc 

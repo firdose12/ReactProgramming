@@ -5,6 +5,7 @@ import title from "./constants.js"
 import CardComponent from "./CardComponent";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
+import NoresultComponent from "./noResultComponent";
 
 
 //titlpe component 
@@ -27,7 +28,7 @@ const BodyComponent = () => {
 }
 
 const CardContainer = ({filteredRestaruants}) => {
-
+    if(!filteredRestaruants.length) { return <NoresultComponent/>}
     const cards = filteredRestaruants.map((reataurants) => {
         return <CardComponent restraunt = {reataurants} key={reataurants.id}/>
     })
